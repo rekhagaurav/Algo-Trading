@@ -1,0 +1,6 @@
+user: id = 'FA71897'
+pwd = 'Rajesh@123'
+factor2 = '<OTP/TOTP>'
+vc = 'FA71897_U'
+app_key = ' 036e0ee3e72de505cd7fe9cbcf16c7e8'
+imei = 'abc1234'
