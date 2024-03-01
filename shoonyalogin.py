@@ -35,14 +35,14 @@ duration        = 1     # in min
 
 # user details
 
-token = '7O66IG4Y23562OZ3ZC3B2Z66S5T37265'
+token = ''
 otp = pyotp.TOTP(token).now()
-user = 'FA71897'
-pwd = 'Rajesh@123'
+user = ''
+pwd = ''
 factor2 = otp
-vc = 'FA71897_U'
-app_key = '036e0ee3e72de505cd7fe9cbcf16c7e8'
-imei = 'abc1234'
+vc = ''
+app_key = '8'
+imei = ''
 ret1 = api.login(userid=user, password=pwd, twoFA=factor2, vendor_code=vc, api_secret=app_key, imei=imei)
 print("login result=",ret1)
 
